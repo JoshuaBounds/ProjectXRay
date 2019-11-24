@@ -10,7 +10,7 @@
 [node name="PushButton02" parent="." instance=ExtResource( 1 )]
 
 [node name="PushButton03" parent="." instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.01547, 0.0199214, 0.00198984 )
 
 [node name="SquarePushButton" parent="." instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0 )

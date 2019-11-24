@@ -1,0 +1,10 @@
+[gd_resource type="SpatialMaterial" format=2]
+
+[resource]
+albedo_color = Color( 1, 0.568627, 0, 1 )
+anisotropy_enabled = true
+anisotropy = 0.0
+ao_enabled = true
+ao_light_affect = 0.3
+ao_on_uv2 = false
+ao_texture_channel = 0
