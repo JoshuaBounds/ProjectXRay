@@ -80,18 +80,18 @@ func process_input():
                 if "collider" in ray_result.keys():
                     if ray_result["collider"] is RigidBody:
                         grabbed_object = ray_result["collider"]
-                        grabbed_object.mode = RigidBody.MODE_STATIC
-                        grabbed_object.gravity = GRAVITY
-                        grabbed_object.collision_layer = 0
-                        grabbed_object.collision_mask = 0
+                        grabbed_object.mode = RigidBody.MODE_KINEMATIC
+                        # grabbed_object.collision_layer = 0
+                        # grabbed_object.collision_mask = 0
         else:
             grabbed_object.mode = RigidBody.MODE_RIGID
             grabbed_object.apply_impulse(Vector3(0, 0, 0), -camera.global_transform.basis.z.normalized() * OBJECT_THROW_FORCE)
-            grabbed_object.collision_layer = 1
-            grabbed_object.collision_mask = 1
+            # grabbed_object.collision_layer = 1
+            # grabbed_object.collision_mask = 1
             grabbed_object = null
 
     if grabbed_object != null:
+        # TODO: Fix this shitty move function
         grabbed_object.global_transform.origin = camera.global_transform.origin + (-camera.global_transform.basis.z.normalized() * OBJECT_GRAB_DISTANCE)
 
 func process_movement(delta):
