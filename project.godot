@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="reactor_prototype"
-run/main_scene="res://Worlds/Default.tscn"
+run/main_scene="res://Worlds/TestingWorld.tscn"
 config/icon="res://icon.png"
 
 [input]

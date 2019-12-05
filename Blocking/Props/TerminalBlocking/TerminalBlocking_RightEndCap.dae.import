@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/World1Blocking.dae-dee7206ca2ba0817f129c73edf8fd1cf.scn"
+path="res://.import/TerminalBlocking_RightEndCap.dae-51e956da648b7f110814b3b29fd6ad5f.scn"
 
 [deps]
 
-source_file="res://Blocking/World/World1Blocking/World1Blocking.dae"
-dest_files=[ "res://.import/World1Blocking.dae-dee7206ca2ba0817f129c73edf8fd1cf.scn" ]
+source_file="res://Blocking/Props/TerminalBlocking/TerminalBlocking_RightEndCap.dae"
+dest_files=[ "res://.import/TerminalBlocking_RightEndCap.dae-51e956da648b7f110814b3b29fd6ad5f.scn" ]
 
 [params]
 
